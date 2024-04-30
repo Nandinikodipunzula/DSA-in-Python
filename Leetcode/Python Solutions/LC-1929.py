@@ -6,3 +6,9 @@ class Solution:
             ans[i]= nums[i]
             ans[n+i]= nums[i]
         return ans
+    
+    if __name__ == "__main__":
+        solution = Solution()
+        nums= [1,2,3,4,5,6,7]
+        output = solution.getConcatenation(nums)
+        print('Concatenated array : ' , output)

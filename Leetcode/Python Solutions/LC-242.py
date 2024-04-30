@@ -15,3 +15,9 @@ class Solution:
             if dictS.get(ch,0) !=0:
                 return False
         return True
+
+if __name__ == "__main__":
+    s,t = 'anagram','nagrama'
+    solution = Solution()
+    ans:bool = solution.isAnagram(s,t)
+    print('Is s and t are anagrams ? : ' , ans)
